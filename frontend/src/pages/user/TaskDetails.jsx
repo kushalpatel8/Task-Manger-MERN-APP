@@ -112,8 +112,8 @@ const TaskDetails = () => {
                     <InfoBox
                       label={"Due Date"}
                       value={
-                        task?.dueDate
-                          ? moment(task?.dueDate).format("Do MMM YYYY")
+                        task?.duedate
+                          ? moment(task?.duedate).format("Do MMM YYYY")
                           : "N/A"
                       }
                     />

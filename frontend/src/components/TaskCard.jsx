@@ -11,7 +11,7 @@ const TaskCard = ({
   status,
   progress,
   createdAt,
-  dueDate,
+  duedate,
   assignedTo,
   attachmentCount,
   completedTodoCount,
@@ -104,7 +104,7 @@ const TaskCard = ({
             <label className="text-xs text-gray-500">Due Date</label>
 
             <p className="text-[13px] font-medium text-gray-900">
-              {moment(dueDate).format("Do MMM YYYY")}
+              {moment(duedate).format("Do MMM YYYY")}
             </p>
           </div>
         </div>

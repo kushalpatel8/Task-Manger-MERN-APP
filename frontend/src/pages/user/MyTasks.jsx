@@ -86,7 +86,7 @@ const MyTask = () => {
                 status={item.status}
                 progress={item.progress}
                 createdAt={item.createdAt}
-                dueDate={item.dueDate}
+                duedate={item.duedate}
                 assignedTo={item.assignedTo?.map(
                   (item) => item.profileImageUrl
                 )}
